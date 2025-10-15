@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+    application:
+        name: track-service
+    data:
+        mongodb:
+            uri: mongodb+srv://soundcloud_db:Tizhc9ngDNMtx9Ku@soundcloud.j6qlnf1.mongodb.net/
+            database: trackdb
