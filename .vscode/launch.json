@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SoundcloudTrackServiceApplication<soundcloud-track-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "vn.devtaycode.soundcloud_track_service.SoundcloudTrackServiceApplication",
+            "projectName": "soundcloud-track-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52996 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=soundcloud-track-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TrackserviceApplication<trackservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "vn.devtaycode.trackservice.TrackserviceApplication",
+            "projectName": "trackservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
